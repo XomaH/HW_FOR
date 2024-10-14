@@ -72,38 +72,36 @@ public class Main {
 
         // task 8
 
-        {System.out.println("Задание 8");}
+        {
+            System.out.println("Задание 8");
+        }
 
-        int total =0 ;
+        int total = 0;
         int vBanky = 29000;
 
-        for(int i = 1; i <= 12; i++)
-        {
-            total = total +vBanky;
+        for (int i = 1; i <= 12; i++) {
+            total = total + vBanky;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + "рублей");
         }
 
         // task 9
 
-        {System.out.println("Задание 9");}
-
-        for(int i = 1; i <= 12; i++)
         {
+            System.out.println("Задание 9");
+        }
+
+        for (int i = 1; i <= 12; i++) {
             total = total + total / 100;
-            total = total +vBanky;
+            total = total + vBanky;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + "рублей");
         }
 
         // task 10
 
         int rezultat;
-        for(int i = 1; i<=10; i++)
-        {
+        for (int i = 1; i <= 10; i++) {
             System.out.println("2 * " + i + " = " + (rezultat = i * 2));
         }
-
-
-
 
 
     }
